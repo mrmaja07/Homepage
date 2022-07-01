@@ -1,0 +1,104 @@
+.container{
+    width: 1050px;
+    height: 120px;
+    margin: 0 auto;
+    border: 1px solid green;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    margin-left: 180px;
+}
+#company{
+    padding: 20px 20px;
+    float: left;
+}
+#company h1 a:hover{
+    font-size: 40px;
+    font-weight: bold;
+    color: black; 
+}
+.searchbox{
+    float: right;
+    padding: 20px 20px;
+    background: gold;
+    margin-top: 16px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.button{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+#textbox{
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    height: 80px;
+    width: 1050px;
+    margin-top: 10px;
+    background:antiquewhite;
+    border-radius: 10px;
+    border: 1px solid green ;
+}
+.menu ul li{
+    float: left;
+    padding: 10px 55px;
+    list-style: none;
+    border-right: 2px solid black;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.menu ul li a:hover{
+    font-size: 28px;
+    font-weight: bold;
+    color: red;}
+    .clear{
+        clear: both;
+    }
+.intro{
+    height: 180px;
+    width: 1030px;
+    margin-top: 10px;
+    background:antiquewhite;
+    border-radius: 10px;
+    border: 1px solid green ;
+    padding: 15px 10px 15px;
+}
+.intro h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    margin-left: 20px;
+}
+.intro p{
+    font-size: 16px;
+    color: grey;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+.intro p a{
+    text-decoration: none;
+}
+.intro p a:hover{
+    font-weight: bold;
+    font-size: 18px;
+}
